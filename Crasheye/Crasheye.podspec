@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Gang Wang' => 'gang.wang.china@gmail.com' }
 
 
-  s.source       = { :git => 'https://github.com/GangWang/crasheye-ios-sdk.git', :tag => 2.4.0 }
+  s.source       = { :git => 'https://github.com/GangWang/crasheye-ios-sdk.git', :tag => s.version.to_s }
   #s.source           = { :http => 'http://crasheye.kssws.ks-cdn.com/downloads/sdk/ios/crasheye_ios_v2.4.0.zip' }
   #s.source           = { :path => '/Users/gangwang/Downloads/crasheye_ios_v2.4.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -35,11 +35,11 @@ TODO: Add long description of the pod here.
   s.platform      = :ios
   s.ios.deployment_target = '7.0'
 
-  s.source_files = [
-      'Crasheye.h'
-  ]
-
-  s.vendored_libraries = 'libCrasheye.a'
+  # s.source_files = [
+  #     'Crasheye.h'
+  # ]
+  #
+  # s.vendored_libraries = 'libCrasheye.a'
 
   s.libraries = 'c++','z'
   s.frameworks = 'UIKit','SystemConfiguration','Security','CoreTelephony','CFNetwork'
