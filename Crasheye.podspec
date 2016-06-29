@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
 
   s.libraries = 'c++','z'
   s.frameworks = 'UIKit','SystemConfiguration','Security','CoreTelephony','CFNetwork'
-  s.pod_target_xcconfig = {
+  s.xcconfig = {
     'OTHER_LDFLAGS' => '-licucore -ObjC'
   }
 
