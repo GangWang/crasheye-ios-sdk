@@ -18,19 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+实时、全面、专业的APP崩溃分析、统计反馈系统.
+支持Cocos2d、Unity、Unreal引擎，支持根据玩家ID、渠道号及自定义字段等信息追踪崩溃
                        DESC
 
   s.homepage         = 'http://www.crasheye.cn'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gang Wang' => 'gang.wang.china@gmail.com' }
 
-
-  s.source       = { :git => 'https://github.com/GangWang/crasheye-ios-sdk.git', :tag => s.version.to_s }
-  #s.source           = { :http => 'http://crasheye.kssws.ks-cdn.com/downloads/sdk/ios/crasheye_ios_v2.4.0.zip' }
-  #s.source           = { :path => '/Users/gangwang/Downloads/crasheye_ios_v2.4.0' }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source            = { :git => 'https://github.com/GangWang/crasheye-ios-sdk.git', :tag => s.version.to_s }
 
   s.platform      = :ios
   s.ios.deployment_target = '7.0'
